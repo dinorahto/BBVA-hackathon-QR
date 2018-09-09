@@ -3,22 +3,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="hackathon.bbva.com.hackathon_qr">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:logo="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:allowBackup="false"
         tools:replace="android:allowBackup"
         android:theme="@style/AppTheme"
+        android:name="hackathon.bbva.com.hackathonqr.MyApplication"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="hackathon.bbva.com.hackathonqr.modules.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="hackathon.bbva.com.hackathonqr.modules.home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/HomeTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="hackathon.bbva.com.hackathonqr.modules.qr.QRActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="hackathon.bbva.com.hackathonqr.modules.accounts.AccountActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

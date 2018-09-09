@@ -6,17 +6,19 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
+import hackathon.bbva.com.qrsdk.qr.QRRemoteStorage
+import hackathon.bbva.com.qrsdk.transactions.TransactionsRemoteStorage
+import hackathon.bbva.com.qrsdk.user.LoginLocalStorage
+import hackathon.bbva.com.qrsdk.user.LoginRemoteStorage
 import io.reactivex.schedulers.Schedulers
+import io.realm.Realm
 import okhttp3.*
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
-import javax.inject.Named
 import javax.inject.Singleton
-import java.security.KeyManagementException
-import java.security.NoSuchAlgorithmException
 
 
 /**
@@ -49,6 +51,12 @@ class DataModule(private val mBaseUrl: String) {
         builder.addInterceptor(interceptor)
                 .connectTimeout(20, TimeUnit.SECONDS)
                 .readTimeout(20, TimeUnit.SECONDS)
+                .addInterceptor { chain ->
+                    val newRequest = chain.request().newBuilder()
+                            .addHeader("Content-Type", "application/json")
+                            .build()
+                    chain.proceed(newRequest)
+                }
         return builder.build()
     }
 
@@ -97,12 +105,36 @@ class DataModule(private val mBaseUrl: String) {
     }
 
     /**
-     * Firebase Database Provider
+     * Login Local Storage Database
      */
-    /*@Provides
+    @Provides
     @Singleton
-    internal fun providerDatabaseFirebase (): FirebaseDatabase {
-        return FirebaseDatabase.getInstance();
-    }*/
+    internal fun providerLoginLocalStorage (): LoginLocalStorage {
+        return LoginLocalStorage()
+    }
+
+    /**
+     * Login Remote Storage Database
+     */
+    @Provides
+    @Singleton
+    internal fun providerLoginRemoteStorage (): LoginRemoteStorage {
+        return LoginRemoteStorage()
+    }
+
+    /**
+     * QR Remote Storage Database
+     */
+    @Provides
+    @Singleton
+    internal fun providerQRRemoteStorage (): QRRemoteStorage {
+        return QRRemoteStorage()
+    }
+
+    @Provides
+    @Singleton
+    internal fun providesTransactionsStorage (): TransactionsRemoteStorage {
+        return TransactionsRemoteStorage()
+    }
 
 }

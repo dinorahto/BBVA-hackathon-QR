@@ -8,4 +8,40 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_view</item>
+    </style>
+
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#072146</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorLightLightGray</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorLightLightGray</item>
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="QRTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#072146</item>
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:textColorHint">@color/colorLightLightGray</item>
+        <item name="colorControlActivated">@color/colorDarkGray</item>
+        <item name="colorControlHighlight">@color/colorDarkGray</item>
+        <item name="actionMenuTextColor">@color/colorDarkGray</item>
+        <item name="colorControlNormal">@color/colorDarkGray</item>
+    </style>
+
+    <style name="EditTextLogin" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorMediumGray</item>
+        <item name="android:textColorHint">@color/colorMediumGray</item>
+        <item name="colorControlNormal">@color/colorMediumGray</item>
+        <item name="colorControlActivated">@color/colorMediumGray</item>
+        <item name="colorControlHighlight">@color/colorMediumGray</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
 </resources>

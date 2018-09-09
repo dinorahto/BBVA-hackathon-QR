@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorWhite">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/add_account_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/add_account_card_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="18dp"
+                android:contentDescription="@string/content_description_card"
+                android:src="@drawable/company"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/add_account_card"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="32dp"
+                android:background="@color/colorUltraLight"
+                android:fontFamily="@font/sfsemibold"
+                android:gravity="center_vertical"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/add_account_card"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_account_card_view" />
+
+            <TextView
+                android:id="@+id/add_account_add_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sfregular"
+                android:text="@string/add_business_data"
+                android:textColor="@color/colorMediumBlack"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_account_card" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_business_number_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_account_add_card">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/add_business_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/sfregular"
+                    android:hint="@string/add_business_name"
+                    android:inputType="text"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:textSize="16sp"
+                    android:theme="@style/EditTextLogin" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_business_password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                app:passwordToggleEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_business_number_layout">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/add_business_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/sfregular"
+                    android:hint="@string/login_password"
+                    android:inputType="textPassword"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:textSize="16sp"
+                    android:theme="@style/EditTextLogin" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/add_business_get_in"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/add_account_next"
+                android:textColor="@color/colorWhite"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

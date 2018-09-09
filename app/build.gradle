@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
 
 android {
@@ -48,6 +49,12 @@ dependencies {
 
     //Architecture Components
     implementation 'android.arch.lifecycle:extensions:1.1.1'
+
+    //Zxing
+    implementation 'com.google.zxing:core:3.2.1'
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

@@ -1,3 +1,94 @@
 <resources>
-    <string name="app_name">Hackathon-QR</string>
+    <string name="app_name">iQR</string>
+
+    <!-- Titles -->
+    <string name="title_card">Tarjeta</string>
+    <string name="title_business">Negocio</string>
+    <string name="title_fast_qr">QR Rápido</string>
+    <string name="title_products_qr">Selecciona los productos</string>
+    <string name="title_confirmation">Confirmación de venta</string>
+
+    <!-- Welcome -->
+    <string name="welcome">¡Bienvenido!\na Lector Móvill</string>
+    <string name="welcome_hi">Hola</string>
+    <string name="welcome_space">Hola\n</string>
+
+    <!-- Login -->
+    <string name="login_password">Contraseña</string>
+    <string name="login_forgot_password">Olvidé mi contraseña</string>
+    <string name="login_number_account">Número de celular</string>
+    <string name="login_account_process">Para poder continuar con el proceso correpondiente debes\ningresar el número de celular que diste de alta para tus alertas.</string>
+    <string name="login_account_data">!Recuerda tener a la mano los datos de tu tarjeta!</string>
+    <string name="login_privacy_policy">Consultar aviso de privacidad</string>
+    <string name="login_get_in">Ingresar</string>
+
+    <!-- Add Account -->
+    <string name="add_account_card">Tarjeta</string>
+    <string name="add_account_data">Ingresa los 18 dígitos de tu clabe bancaria</string>
+    <string name="add_account_card_number">Clabe bancaria</string>
+    <string name="add_account_next">Continuar</string>
+
+    <!-- Add business info -->
+    <string name="add_business">Negocio</string>
+    <string name="add_business_data">Completa los datos de tu negocio</string>
+    <string name="add_business_name">Nombre</string>
+    
+    <!-- Home -->
+    <string name="home_accounts">Mis cuentas</string>
+    <string name="home_accounts_body">Selecciona la tarjeta a la que se ingresarán los cobros, ver la cantidad que tiene cada cuenta en tiempo real para ingresar necesitas el codigo se seguridad</string>
+    <string name="home_pay">Cobrar</string>
+    <string name="home_pay_body">Crea una cuenta a cobrar</string>
+    <string name="home_history">Historial</string>
+    <string name="home_history_body">Crea una cuenta a cobrar</string>
+    <string name="home_inventary">Inventario</string>
+    <string name="home_inventary_body">Crea una cuenta a cobrar</string>
+    <string name="home_sales">Más vendidos</string>
+    <string name="home_sales_body">Encuentra los productos mejor vendidos durante los últimos días</string>
+    <string name="home_champion">Vendedor</string>
+    <string name="home_champion_body">Los vendedores con más ventas durante los últimos días</string>
+    <string name="home_one_account">Cuenta</string>
+    <string name="home_close">Cerrar la sesión</string>
+    <string name="home_clabe">Cuenta MX *&#160;</string>
+
+    <!-- Account -->
+    <string name="account_movement">Movimientos</string>
+    <string name="account_deposit">Cta. Depósito</string>
+    <string name="account_store">Beneficiario</string>
+    <string name="account_amount">Importe</string>
+    <string name="account_payment">Motivo del pago</string>
+    <string name="account_date">Fecha</string>
+    <string name="account_time">Hora</string>
+    <string name="account_id">Folio</string>
+    <string name="account_success">Operación exitosa</string>
+    <string name="account_share">Compartir</string>
+    
+    <!-- Payment -->
+    <string name="qr_quantity">Cantidad</string>
+    <string name="qr_quantity_review">Generar un código QR para una cobro rapido \nsin necesidad de realizar una lista desde el inventario</string>
+    <string name="qr_products">Con productos</string>
+    <string name="qr_with_products">QR con productos</string>
+    <string name="qr_with_products_review">Genera el QR con los productos de tu inventario</string>
+    <string name="qr_generate">Generar código</string>
+
+    <!-- Purcharse -->
+    <string name="purcharse_transaction">Número de transacción 0000004567</string>
+    <string name="purcharse_address">Edision Norte No 11237 C.P. 54480 col Juaréz Ciudad de México</string>
+    <string name="purcharse_subtotal">Subtotal</string>
+    <string name="purcharse_iva">IVA 16 %</string>
+    <string name="purcharse_products">Productos comprados</string>
+    <string name="purcharse_total">Total</string>
+    <string name="purcharse_thanks">Gracias por su compra</string>
+    <string name="purcharse_tecnical_address">Pago en una sola exhibición Expedido en: Edison Norte No 1237 Col Juárez. C.P. 54480 Ciudad de México. México email: ropavintage@vintail.com Tel.555977432</string>
+    <string name="purcharse_finalize">Finalizar</string>
+    <string name="purcharse_share">Enviar</string>
+    <string name="purcharse_email">Correo electrónico</string>
+    <string name="purcharse_ticket">Comprobante</string>
+
+    <!-- Errors -->
+    <string name="error_amount">La cantidad ingresada es incorrecta</string>
+
+    <!-- Content description -->
+    <string name="content_description_splash">Content description splash</string>
+    <string name="content_description_card">Content description card</string>
+
 </resources>

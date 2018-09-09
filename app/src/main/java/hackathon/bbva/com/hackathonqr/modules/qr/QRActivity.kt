@@ -6,6 +6,8 @@ import android.view.View
 import hackathon.bbva.com.hackathon_qr.R
 import hackathon.bbva.com.hackathonqr.modules.login.AddAccountFragment
 import hackathon.bbva.com.hackathonqr.modules.login.AddBusinessFragment
+import hackathon.bbva.com.hackathonqr.util.CloseKeyboardUtil
+import hackathon.bbva.com.qrsdk.DaggerInjectorQR
 import kotlinx.android.synthetic.main.activity_qr.*
 
 /**
@@ -63,6 +65,7 @@ class QRActivity: AppCompatActivity(), QRView {
      * Setting the next step for the view without products
      */
     override fun nextStep(total: Double) {
+        CloseKeyboardUtil.closeKeyboard(currentFocus, DaggerInjectorQR.context)
         qr_generate.visibility = View.GONE
         val qrConfirmation = QRConfirmation()
         val data = Bundle()

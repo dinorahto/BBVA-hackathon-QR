@@ -27,7 +27,7 @@ class HomePresenter
 
     private fun setTransactions () {
         transactionsRepository.getTransactionsAvailable().subscribe({
-            view.setViewTransaction(it[0])
+            view.setViewTransaction(it[it.size-1])
         }, {
             Log.e("", "")
         })

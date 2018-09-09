@@ -5,6 +5,7 @@
     <string name="title_card">Tarjeta</string>
     <string name="title_business">Negocio</string>
     <string name="title_fast_qr">QR Rápido</string>
+    <string name="title_accounts">Mis cuentas</string>
     <string name="title_products_qr">Selecciona los productos</string>
     <string name="title_confirmation">Confirmación de venta</string>
 

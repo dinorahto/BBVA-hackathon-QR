@@ -19,7 +19,7 @@ class TransactionsResponseViewModel (@SerializedName("id")
                                      var amount: Double? = 0.0,
                                      @SerializedName("date")
                                      @Expose
-                                     var date: Date? = null,
+                                     var date: Long? = null,
                                      @SerializedName("telefono")
                                      @Expose
                                      val telefono: String? = null,

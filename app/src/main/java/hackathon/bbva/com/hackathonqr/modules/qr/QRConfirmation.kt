@@ -12,6 +12,7 @@ import com.google.zxing.BarcodeFormat
 import com.google.zxing.MultiFormatWriter
 import com.google.zxing.WriterException
 import com.google.zxing.common.BitMatrix
+import hackathon.bbva.com.hackathonqr.util.MoneyUtils
 import hackathon.bbva.com.qrsdk.transactions.TransactionsRepository
 import hackathon.bbva.com.qrsdk.transactions.domain.ProductsResponseViewModel
 import hackathon.bbva.com.qrsdk.user.LoginRepository
@@ -77,7 +78,7 @@ class QRConfirmation: Fragment(), QRConfirmationView {
      * @param view
      */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        generateQR()
+        setHasOptionsMenu(true)
         setView()
     }
 
@@ -118,7 +119,8 @@ class QRConfirmation: Fragment(), QRConfirmationView {
             presenter?.settingProductView(products)
         }
         presenter?.settingView()
-        purcharse_final.setOnClickListener { presenter?.confirmation(purcharse_total_product_amount.text.toString().toDouble()) }
+        purcharse_final.setOnClickListener { presenter?.confirmation(total!!) }
+        generateQR()
     }
 
     override fun settingAdapter(products: List<ProductsResponseViewModel>) {
@@ -127,10 +129,11 @@ class QRConfirmation: Fragment(), QRConfirmationView {
     }
 
     override fun settingAmounts(subtotal: Double, iva: Double, total: Double, product: Int) {
-        purcharse_subtotal_amount.text = subtotal.toString()
-        purcharse_iva_amount.text = iva.toString()
+        this.total = total
+        purcharse_subtotal_amount.text = MoneyUtils.setCurrency(subtotal)
+        purcharse_iva_amount.text = MoneyUtils.setCurrency(iva)
         purcharse_product_amount.text = product.toString()
-        purcharse_total_product_amount.text = total.toString()
+        purcharse_total_product_amount.text = MoneyUtils.setCurrency(total)
     }
 
     override fun settingView(name: String?) {
@@ -145,7 +148,8 @@ class QRConfirmation: Fragment(), QRConfirmationView {
      */
     private fun generateQR () {
         var bitmap: Bitmap? = null
-        val account = "012180027192980453"
+        //val account = "012180027192980453"
+        val account = loginRepository?.currentUser()?.clabe
         try {
             bitmap = TextToImageEncode("{\n" +
                     "  \"dOp\": [\n" +
@@ -159,7 +163,7 @@ class QRConfirmation: Fragment(), QRConfirmationView {
                     "      \"refa\": \"JOSE\"\n" +
                     "    },\n" +
                     "    {\n" +
-                    "      \"amount\": \"1.00\"\n" +
+                    "      \"amount\":" + "\""+ total + "\""+ //\"1.00\"\n" +
                     "    },\n" +
                     "    {\n" +
                     "      \"alias\": \"págame \"\n" +

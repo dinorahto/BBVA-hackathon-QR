@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import com.squareup.picasso.Picasso
 import hackathon.bbva.com.hackathon_qr.R
+import hackathon.bbva.com.hackathonqr.util.MoneyUtils
 import hackathon.bbva.com.qrsdk.transactions.domain.ProductsResponseViewModel
 import kotlinx.android.synthetic.main.layout_products_qr.view.*
 
@@ -21,7 +22,7 @@ class ProductHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     fun setProducts (product: ProductsResponseViewModel?) {
         Picasso.get().load(product?.urlImagen).into(itemView.products_qr_image)
         itemView.products_qr_description.text = product?.nombre
-        itemView.products_qr_price.text = product?.precio.toString()
+        itemView.products_qr_price.text = MoneyUtils.setCurrency(product?.precio!!)
     }
 
     /**

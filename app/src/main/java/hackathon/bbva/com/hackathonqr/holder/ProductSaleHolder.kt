@@ -2,6 +2,7 @@ package hackathon.bbva.com.hackathonqr.holder
 
 import android.support.v7.widget.RecyclerView
 import android.view.View
+import hackathon.bbva.com.hackathonqr.util.MoneyUtils
 import hackathon.bbva.com.qrsdk.transactions.domain.ProductsResponseViewModel
 import kotlinx.android.synthetic.main.layout_product_sale.view.*
 
@@ -17,6 +18,6 @@ class ProductSaleHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     */
     fun setInfo (productSaleHolder: ProductsResponseViewModel?) {
         itemView.product_sale_name.text = productSaleHolder?.nombre
-        itemView.product_sale_amount.text = productSaleHolder?.precio.toString()
+        itemView.product_sale_amount.text = MoneyUtils.setCurrency(productSaleHolder?.precio!!)
     }
 }

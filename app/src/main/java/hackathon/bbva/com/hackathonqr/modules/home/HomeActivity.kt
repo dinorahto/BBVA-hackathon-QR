@@ -7,6 +7,7 @@ import hackathon.bbva.com.hackathon_qr.R
 import hackathon.bbva.com.hackathonqr.MyApplication
 import hackathon.bbva.com.hackathonqr.modules.accounts.AccountActivity
 import hackathon.bbva.com.hackathonqr.modules.qr.QRActivity
+import hackathon.bbva.com.hackathonqr.util.MoneyUtils
 import hackathon.bbva.com.qrsdk.transactions.TransactionsRepository
 import hackathon.bbva.com.qrsdk.transactions.domain.TransactionsResponseViewModel
 import hackathon.bbva.com.qrsdk.user.LoginRepository
@@ -26,6 +27,14 @@ class HomeActivity: AppCompatActivity(), HomeView {
     private var presenter: HomePresenter? = null
 
     /**
+     * Companion Object for constants
+     */
+    companion object {
+        const val SUCCESS_VERIFY = 2020
+        const val RELOAD_BALANCE = 2021
+    }
+
+    /**
      * Starting Activity from Login Activity
      * @param savedInstanceState
      */
@@ -39,11 +48,33 @@ class HomeActivity: AppCompatActivity(), HomeView {
     }
 
     /**
+     * On Activity result of Verify Activity after a successful email verification or
+     * a Profile interaction
+     * @param requestCode Int
+     * @param resultCode Int
+     * @param data Intent
+     */
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        when (requestCode) {
+            RELOAD_BALANCE -> if (resultCode == RESULT_OK) {
+                presenter?.setCustomView()
+                scrollView()
+            }
+        }
+    }
+
+    /**
      * Setting the view and container
      */
     private fun setView () {
-        pay_container.setOnClickListener { startActivity(Intent (this, QRActivity::class.java)) }
+        pay_container.setOnClickListener { startActivityForResult(Intent (this, QRActivity::class.java), RELOAD_BALANCE) }
         home_account_container.setOnClickListener { startActivity(Intent(this, AccountActivity::class.java)) }
+        historial_container.setOnClickListener { startActivity(Intent(this, AccountActivity::class.java)) }
+    }
+
+    private fun scrollView () {
+        main_scroll_view.smoothScrollTo(0, account_container.bottom)
     }
 
     override fun setNameBusiness(razonSocial: String?, account: String?) {
@@ -54,7 +85,7 @@ class HomeActivity: AppCompatActivity(), HomeView {
     }
 
     override fun setViewTransaction(transaction: TransactionsResponseViewModel) {
-        home_account_body.text = transaction.amount.toString()
+        home_account_body.text = MoneyUtils.setCurrency(transaction.amount!!)
         val df = SimpleDateFormat("dd·MM·yy", Locale.getDefault())
         val formattedDate = df.format(Calendar.getInstance().time)
         home_account_sub_body.text = formattedDate

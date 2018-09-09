@@ -35,7 +35,6 @@ class LoginActivity: AppCompatActivity(), LoginView {
         presenter?.searchUser()
         title = ""
         onBackStackChangedListener()
-        startActivity(Intent (context, HomeActivity::class.java))
     }
 
     /**
@@ -85,6 +84,11 @@ class LoginActivity: AppCompatActivity(), LoginView {
         login_process_data.visibility = View.GONE
         login_process_account.visibility = View.GONE
         login_number_account_layout.visibility = View.GONE
+
+        login_button.setOnClickListener {
+            finish()
+            startActivity(Intent (context, HomeActivity::class.java))
+        }
     }
 
     /**

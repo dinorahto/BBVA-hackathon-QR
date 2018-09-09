@@ -19,126 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd00f82-4987-4655-a988-98be38bad457" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_exifinterface_27_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_2_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/holder/MovementHolder.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/holder/ProductHolder.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/holder/ProductSaleHolder.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/accounts/AccountActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/accounts/AccountPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/accounts/AccountView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/accounts/MovementAdapter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/accounts/MovementDetail.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/accounts/OnClickMovementListener.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/home/HomeActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/home/HomePresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/home/HomeView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/AddAccountFragment.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/AddAccountPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/AddAccountView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/AddBusinessFragment.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/AddBusinessPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/AddBusinessView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/LoginActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/LoginPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/login/LoginView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRAdapterProductSale.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRAdapterProducts.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRConfirmation.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRConfirmationPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRConfirmationView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRProductFragment.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRProductPresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRProductView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/util/CloseKeyboardUtil.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_elevation.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_only_gradient.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_round_corner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_round_corner_all.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/border_line.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_view.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_qr.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_account.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_business.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_confirmation.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_movement_detail.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_qr_products.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_detail_purcharse.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_detail_share_purcharse.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_movements_holder.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_product_sale.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_products_qr.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_share.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/qr/QRRemoteStorage.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/qr/QRRepository.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/qr/domain/QRLayout.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/qr/domain/QRLayoutdOP.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/transactions/TransactionsRemoteStorage.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/transactions/TransactionsRepository.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/transactions/domain/ConciliationAccountRequestViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/transactions/domain/ConciliationRequestViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/transactions/domain/ProductsResponseViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/transactions/domain/TransactionsResponseViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/LoginLocalStorage.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/LoginRemoteStorage.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/LoginRepository.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/database/UserDB.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/domain/AccountRequestViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/domain/AccountResponseViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/domain/LoginRequestViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/user/domain/LoginResponseViewModel.kt" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathon_qr/AppComponent.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/AppComponent.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathon_qr/AppModule.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/AppModule.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathon_qr/MainActivity.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathon_qr/MyApplication.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/MyApplication.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/qrsdk/build.gradle" afterPath="$PROJECT_DIR$/qrsdk/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/qrsdk/qrsdk.iml" afterPath="$PROJECT_DIR$/qrsdk/qrsdk.iml" />
-      <change beforePath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/DataComponent.kt" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/DataComponent.kt" />
-      <change beforePath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/DataModule.kt" afterPath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/DataModule.kt" />
-      <change beforePath="$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/Injector.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -213,13 +94,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="QRConfirmation.kt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="QRConfirmation.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/hackathon/bbva/com/hackathonqr/modules/qr/QRConfirmation.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="916">
                   <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                  <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="80" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="android-manifest">
+                <state />
               </provider>
             </entry>
           </file>
@@ -3682,6 +3576,11 @@
             <path>
               <item name="BBVA-hackathon-QR" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="BBVA-hackathon-QR" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -4150,17 +4049,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qrsdk/src/main/java/hackathon/bbva/com/qrsdk/DataModule.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
@@ -4584,6 +4472,17 @@
           <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>
